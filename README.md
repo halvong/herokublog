@@ -9,6 +9,7 @@ tom:tom
 1. modified config/database.yml
 2. rails db:schema:dump
 3. copy Procfile (heroku command) from another project.
-4. 
+4. create app in heroku dashboard: herokublograils4
+4. heroku ps:scale web=1
 
 
