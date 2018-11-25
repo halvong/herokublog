@@ -1,5 +1,5 @@
 Rails 4, Apress
-11/16/2018, Fri
+11/24/2018, Sat
 
 #database
 sudo systemctl start postgresql
@@ -20,10 +20,12 @@ tom:tom
 11. heroku ps:scale web=1
 12. rails db:migrate
     heroku run rails db:migrate
-13. rails g model Article   
-14. rails db:migrate, p34 
-15. rails generate controller articles
-16. rails generate scaffold Article title:string body:text published_at:datetime --skip-migration --force
+13. rails g model Article (skipped)   
+14. rails db:migrate, p34 (skipped) 
+15. rails generate controller articles (skipped)
+16. rails generate scaffold Article title:string body:text published_at:datetime --skip-migration --force, pg39
+17. 
+18.
 
 
 
