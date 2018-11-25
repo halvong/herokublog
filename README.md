@@ -1,6 +1,18 @@
 Rails 4, Apress
 11/24/2018, Sat
 
+pg71 Find single Record
+
+#Heroku Name
+herokublograils4
+Host
+ec2-75-101-138-26.compute-1.amazonaws.com
+Database: d11sjmlhqbfo5f
+Port: 5432
+
+#Heroku CLI
+heroku pg:psql postgresql-graceful-44182 --app herokublograils4
+
 #database
 sudo systemctl start postgresql
 psql -d herokublog
@@ -24,8 +36,9 @@ tom:tom
 14. rails db:migrate, p34 (skipped) 
 15. rails generate controller articles (skipped)
 16. rails generate scaffold Article title:string body:text published_at:datetime --skip-migration --force, pg39
-17. 
-18.
+17. heroku logs --tail 
+18. heroku run rails c 
+19. 
 
 
 
